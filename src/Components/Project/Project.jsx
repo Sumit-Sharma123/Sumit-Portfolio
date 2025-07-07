@@ -8,7 +8,7 @@ const Project = () => {
     <div id="projects" className="project">
        <div className="project-title">
         <h1>My Projects</h1>
-         <img src={theme_pattern} alt="Project Theme" />
+         <img src={theme_pattern} alt="Project Theme" height={"150px"} width={"250px"}/>
        </div>
         <div className="project-list">
             <div className="project-item">

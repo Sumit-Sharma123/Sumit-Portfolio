@@ -33,7 +33,7 @@ const Contact = () => {
     <div  id="contact" className="contact">
       <div className="contact-title">
         <h1>Get in Touch </h1>
-        <img src={theme_pattern} alt=""  />
+        <img src={theme_pattern} alt="" height={"150px"} width={"250px"} />
       </div>
       <div className="contact-section">
         <div className="contact-left">

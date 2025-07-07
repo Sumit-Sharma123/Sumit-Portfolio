@@ -1,14 +1,14 @@
 import React from "react";
 import './About.css'; 
 import profile_img from '../../assets/photos.jpg'; 
-import logo from '../../assets/logo.JPG';
+import logo from '../../assets/logo.jpg';
 
 const About = () => {
     return (
         <div id="about" className="about">
            <div className="about-title">
               <h1>About me </h1>
-              <img src={logo} alt="" />
+              <img src={logo} alt="" height={"150px"} width={"250px"}/>
             </div>
             <div className="about-section">
                 <div className="about-left">

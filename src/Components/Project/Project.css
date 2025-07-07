@@ -64,6 +64,8 @@
     .project-title img{
         width: 130px;
         right: -20px;
+        height: 80px;
+    width: 120px;
     }
   .project-item {
     background-color: #111; /* Optional: visual separation */

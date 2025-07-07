@@ -1,6 +1,6 @@
 import React from "react";
 import "./MyWork.css";
-import Theme from "../../assets/logo.JPG";
+import Theme from "../../assets/logo.jpg";
 import mywork_data from "../../assets/mywork_data";
 import arrow_icon from "../../assets/arrow.svg";
 
@@ -9,7 +9,7 @@ const MyWork = () => {
     <div id="socialservices" className="mywork">
        <div className="mywork-title">
           <h1>Social Services</h1>
-          <img src={Theme} alt="" />
+          <img src={Theme} alt="" height={"150px"} width={"250px"} />
        </div>
        <div className="mywork-container">
            {mywork_data.map((work, index) => {
