@@ -16,9 +16,10 @@ const Navbar = () => {
     const closeMenu = () =>{
         menuRef.current.style.right = "-350px";
     }
+    
     return (
        <div className="navbar" >
-         <img src={logo} alt=" " height={"120px"} width={"200px"} /> 
+         <img src={logo} alt=" "  height={"120px"} width={"200px"} /> 
          <img src={menu_open} onClick={openMenu} alt="" className="nav-mob-open" height={"20px"} width={"20px"}/>
          
          <div>

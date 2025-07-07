@@ -14,8 +14,7 @@ const Project = () => {
             <div className="project-item">
                <h2><u>Wimdu</u> </h2>
                 <p><strong>Description :- </strong> Wimdu has over 350,000 vacation rentals located in the some of the best 
-                spots around the globe, booking your vacation with Wimdu allows you to avoid overpriced and overcrowded Hotel accommodation. Wimdu is an online platform that connects property owners (hosts) with individuals seeking accommodations,
-                     like travelers or those needing temporary stays.</p>
+                spots around the globe, booking your vacation with Wimdu allows you to avoid overpriced and overcrowded Hotel accommodation. </p>
                 <nbsp/> <nbsp/>
                 <h3>Here's a more detailed breakdown :</h3>
                 <img src={arrow} alt=""  height={"20px"} width={"20px"}  /> 

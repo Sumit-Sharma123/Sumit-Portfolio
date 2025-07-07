@@ -100,52 +100,93 @@
     transition: 0.3s;
 }
 @media(max-width:768px){
-    .about{
-        margin: 50px 70px;
-        gap: 80px;
-        align-items: start;
-    }
-    .about-title h1{
-        font-size: 50px;
-        padding: 0;
-    }
-    .about-title img{
-        width: 130px;
-        right: -20px;
-    }
-    .about-section{
-        flex-direction: column;
-       
-    }
-    .about-left{
-        display: none;
-    }
-    .about-para{
-        font-size: 18px;
-        line-height: 32px;
-    }
-    .about-skill{
-        gap: 20px;
-        align-items: center;
-    }
-    .about-skill p{
-        font-size: 20px;
-    }
-    .about-skill hr{
-        height: 6px;
-    }
-    .about-achievements{
-        justify-content: space-between;
-    }
-    .about-achievement{
-        gap: 10px;
-    }
-    .about-achievement h1{
-        font-size: 34px;
-        font-weight: 700;
-    }
-    .about-achievement p{
-        text-align: center;
-        font-size: 13px;
-    }
+   html {
+    scroll-behavior: smooth;
+  }
+
+  .about {
+    margin: 30px 20px;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: flex-start;
+  }
+
+  .about-title h1 {
+    font-size: 36px;
+    line-height: 1.2;
+    padding: 0;
+    text-align: center;
+  }
+
+  .about-title img {
+    width: 100px;
+    right: 0;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .about-section {
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+  }
+
+  .about-left {
+    display: none; /* hides image or side graphic on mobile */
+  }
+
+  .about-para {
+    font-size: 16px;
+    line-height: 28px;
+    text-align: justify;
+  }
+
+  .about-skill {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    width: 100%;
+  }
+
+  .about-skill p {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .about-skill hr {
+    height: 4px;
+    width: 100%;
+    background-color:#8e44ad ;
+    border: none;
+    margin: 20px 0;
+  }
+
+  .about-achievements {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .about-achievement {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .about-achievement h1 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #8e44ad;
+  }
+
+  .about-achievement p {
+    font-size: 13px;
+    max-width: 180px;
+  }
 }

@@ -71,36 +71,76 @@ background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%,
 
 }
 @media(max-width:768px){
-    .services{
-        margin: 20px 70px;
-        gap: 70px;
-        align-items: start;
-    }
-    .services-title h1{
-        font-size: 50px;
-        padding: 0;
-    }
-    .services-title img{
-        width: 130px;
-        right: -20px;
-    }
-    .services-format{
-        gap: 20px;
-        padding: 32px;
-    }
-    .service-format h2{
-        font-size: 28px;
-    }
-    .service-format p{
-        font-size: 18px;
-        line-height: 32px;
-        max-width: 300px;
-    }
-    .services-readmore img{
-        width: 20px;
-    }
-    .services-container{
-        grid-template-columns: 1fr 1fr;
-        gap: 30px;
-    }
+     html {
+    scroll-behavior: smooth;
+  }
+
+  .services {
+    margin: 20px 20px;     /* reduced side margin for smaller screens */
+    gap: 40px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .services-title h1 {
+    font-size: 36px;
+    padding: 0;
+    text-align: center;
+    line-height: 1.3;
+  }
+
+  .services-title img {
+    width: 100px;
+    right: 0;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .services-format {
+    gap: 16px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .service-format h2 {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .service-format p {
+    font-size: 16px;
+    line-height: 28px;
+    max-width: 100%;
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  .services-readmore img {
+    width: 20px;
+    display: block;
+    margin: 10px auto;
+  }
+
+  .services-container {
+    display: grid;
+    grid-template-columns: 1fr;  /* 1 column on small screens */
+    gap: 24px;
+  }
+
+  /* Optional: Make each service card responsive */
+  .service-format {
+    background-color: #111;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+  }
+
+  .service-format:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+  }
 }
+    
