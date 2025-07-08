@@ -1,4 +1,4 @@
-import Project1 from '../assets/spotify.jpg';
+import Project1 from '../assets/spotify.JPG';
 import Project2 from '../assets/coin.png';
 import Project3 from '../assets/airbnb.jpg';
 import Project4 from '../assets/Project9_img.jpg';
